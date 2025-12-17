@@ -1,0 +1,9 @@
+{
+    "java.project.sourcePaths": [
+        "src/main/java/com/sfms/view",
+        "src/main/java/com/sfms/model",
+        "src/main/java/com/sfms/exception",
+        "src/main/java/com/sfms/dao",
+        "src/main/java/com/sfms"
+    ]
+}

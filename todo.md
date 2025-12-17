@@ -1,0 +1,12 @@
+- [x] Add imports for GuardDAO and Guard in ShiftSchedulingController
+- [x] Add GuardDAO field and initialize in constructor
+- [x] Modify addShift() to fetch guards from DB and populate JComboBox
+- [x] Modify editShift() to fetch guards from DB and populate JComboBox
+- [x] Handle database exceptions gracefully in addShift() and editShift()
+- [x] Add logout button to AdminDashboardPanel
+- [x] Add logout button to ManagerDashboardPanel
+- [x] Add logout button to GuardDashboardPanel
+- [x] Modify SFMSMainFrame to accept MainController in constructor and add logout() method
+- [x] Modify MainController to create SFMSMainFrame and implement onLogout()
+- [x] Update SFMSApplication to use new MainController constructor
+- [x] Wire logout buttons to call mainFrame.logout() which calls mainController.onLogout()
